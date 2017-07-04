@@ -18,7 +18,7 @@ local:
     		webpack -p
 
 .PHONY: $(GOBINDATA_TARGET)
-$(GOBINDATA_TARGET):
+$(GOBINDATA_TARGET):rm
 	go-bindata -nometadata -pkg ui -o $@ -prefix swagger-ui-local/dist swagger-ui-local/dist/...
 
 .PHONY: rm
