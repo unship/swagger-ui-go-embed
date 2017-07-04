@@ -1,0 +1,8 @@
+hash: 2fdf193beb6e46f6a810950d482fbbcd070effc05772325a95324dff9f5f25c0
+updated: 2017-07-04T14:40:46.836800817+08:00
+imports:
+- name: github.com/elazarl/go-bindata-assetfs
+  version: 30f82fa23fd844bd5bb1e5f216db87fd77b5eb43
+- name: github.com/philips/go-bindata-assetfs
+  version: 3dcc96556217539f50599357fb481ac0dc7439b9
+testImports: []

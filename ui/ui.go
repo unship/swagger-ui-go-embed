@@ -1,0 +1,1 @@
+package ui//go:generate make generate

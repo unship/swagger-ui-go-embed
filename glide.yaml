@@ -1,0 +1,4 @@
+package: github.com/biolee/swagger-ui-go-embed
+import:
+- package: github.com/elazarl/go-bindata-assetfs
+- package: github.com/philips/go-bindata-assetfs
