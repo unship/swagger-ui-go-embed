@@ -1,3 +1,0 @@
-# start
-
-git clone --recursive
