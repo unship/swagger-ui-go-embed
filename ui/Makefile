@@ -21,5 +21,6 @@ local:
 $(GOBINDATA_TARGET):
 	go-bindata -nometadata -pkg ui -o $@ -prefix swagger-ui-local/dist swagger-ui-local/dist/...
 
+.PHONY: rm
 rm:
 	rm $(GOBINDATA_TARGET)
